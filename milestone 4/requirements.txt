@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+requests
+beautifulsoup4
+fastparquet
+kafka-python
+psycopg2-binary
+SQLAlchemy
+docker
+plotly
+dash
+apache-airflow

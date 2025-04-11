@@ -1,0 +1,8 @@
+Expected one of ['emp_title', 'emp_length', 'annual_inc', 'annual_inc_joint', 
+'verification_status', 'zip_code', 'addr_state', 'avg_cur_bal', 'tot_cur_bal', 
+'loan_id', 'loan_status', 'loan_amount', 'funded_amount', 'int_rate', 'grade', 
+'issue_date', 'pymnt_plan', 'purpose', 'description', 'month_number', 'salary_can_cover', 
+'letter_grade', 'installment_per_month', 'letter_grade_encoded', 'addr_state_encoded', 
+'state_encoded', 'purpose_encoded', 'loan_status_encoded', 'verification_status_encoded',
+ 'home_ownership_ANY', 'home_ownership_MORTGAGE', 'home_ownership_OWN', 'home_ownership_RENT', 
+ 'term_ 36 months', 'term_ 60 months', 'type_Direct Pay', 'type_Individual', 'type_Joint', 'state_name']

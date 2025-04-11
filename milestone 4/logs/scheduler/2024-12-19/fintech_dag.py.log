@@ -1,0 +1,73 @@
+[2024-12-19T18:21:13.986+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:13.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:21:13.994+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:13.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:18.972+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:19.461+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:19.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:21:19.498+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:19.498+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:21:19.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 5.564 seconds
+[2024-12-19T18:21:23.933+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:23.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:21:23.940+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:23.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:25.530+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:25.554+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:25.554+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'fintech_etl_pipeline', 'Task Id': 'run_dashboard', 'Run Id': 'manual__2024-12-18T21:17:15.394316+00:00', 'Hostname': '3053742118dc', 'External Executor Id': 'a712e14d-d36d-4b17-bf89-c7752afc4c2b'}
+[2024-12-19T18:21:25.582+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:25.582+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=fintech_etl_pipeline, task_id=run_dashboard, run_id=manual__2024-12-18T21:17:15.394316+00:00, execution_date=20241218T211715, start_date=20241218T211735, end_date=20241219T182125
+[2024-12-19T18:21:25.606+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:25.606+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: fintech_etl_pipeline.run_dashboard manual__2024-12-18T21:17:15.394316+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-19T18:21:25.612+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:25.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:21:25.640+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:25.640+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:21:25.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.748 seconds
+[2024-12-19T18:21:55.769+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:55.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:21:55.773+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:55.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:56.899+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:21:56.921+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:56.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:21:56.938+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:21:56.938+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:21:56.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.194 seconds
+[2024-12-19T18:22:27.172+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:22:27.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:22:27.177+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:22:27.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:22:28.308+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:22:28.334+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:22:28.334+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:22:28.364+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:22:28.364+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:22:28.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.225 seconds
+[2024-12-19T18:23:38.563+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:23:38.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:23:38.571+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:23:38.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:23:41.674+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:23:41.717+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:23:41.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:23:41.738+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:23:41.737+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:23:41.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 3.206 seconds
+[2024-12-19T18:24:11.895+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:24:11.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:24:11.901+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:24:11.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:24:13.127+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:24:13.158+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:24:13.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:24:13.181+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:24:13.180+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:24:13.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.316 seconds
+[2024-12-19T18:24:43.293+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:24:43.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:24:43.298+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:24:43.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:24:44.540+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:24:44.562+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:24:44.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:24:44.580+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:24:44.580+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:24:44.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.317 seconds
+[2024-12-19T18:25:14.742+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:25:14.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:25:14.747+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:25:14.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:25:15.829+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:25:15.848+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:25:15.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:25:15.866+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:25:15.866+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:25:15.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.152 seconds
+[2024-12-19T18:25:46.146+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:25:46.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:25:46.149+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:25:46.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:25:48.077+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:25:48.097+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:25:48.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:25:48.116+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:25:48.115+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:25:48.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.993 seconds
+[2024-12-19T18:26:18.403+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:26:18.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fintech_dag.py for tasks to queue
+[2024-12-19T18:26:18.407+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:26:18.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:26:19.713+0000] {processor.py:925} INFO - DAG(s) 'fintech_etl_pipeline' retrieved from /opt/airflow/dags/fintech_dag.py
+[2024-12-19T18:26:19.739+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:26:19.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T18:26:19.764+0000] {logging_mixin.py:190} INFO - [2024-12-19T18:26:19.764+0000] {dag.py:4180} INFO - Setting next_dagrun for fintech_etl_pipeline to None, run_after=None
+[2024-12-19T18:26:19.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fintech_dag.py took 1.394 seconds
