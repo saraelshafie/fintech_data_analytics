@@ -1,0 +1,61 @@
+# version: '3.9'
+# services:  
+#   pgdatabase:
+#     image: postgres:13
+#     container_name: pgdatabase
+#     environment:
+#       POSTGRES_USER: root
+#       POSTGRES_PASSWORD: root
+#       POSTGRES_DB: fintechdb
+#     ports:
+#       - 5432:5432
+#     volumes:
+#       - ./volumes/data_postgres:/var/lib/postgresql/data 
+
+  # pgadmin:
+  #   image: dpage/pgadmin4
+  #   user: root
+  #   container_name: pgadmin
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: admin@root.com
+  #     PGADMIN_DEFAULT_PASSWORD: admin
+  #     CSRF_DISABLED: True  # Disable CSRF protection
+  #   ports:
+  #     - 8090:80
+  #   depends_on:
+  #     - pgdatabase
+  #   restart: on-failure
+
+  #   volumes:
+  #     - ./volumes/pgadmin_data:/var/lib/pgadmin
+
+version: "3.9"
+services:
+  pgdatabase:
+    image: postgres:13
+    container_name: pgdatabase
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: testdb
+    ports:
+      - 5432:5432
+    volumes:
+      - ./volumes/data_postgres:/var/lib/postgresql/data
+
+  pgadmin:
+      image: dpage/pgadmin4
+      user: root
+      container_name: pgadmin
+      environment:
+        PGADMIN_DEFAULT_EMAIL: admin@root.com
+        PGADMIN_DEFAULT_PASSWORD: admin
+        CSRF_DISABLED: True  # Disable CSRF protection
+      ports:
+        - 8090:80
+      depends_on:
+        - pgdatabase
+      restart: on-failure
+
+      volumes:
+        - ./volumes/pgadmin_data:/var/lib/pgadmin
